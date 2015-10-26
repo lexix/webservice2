@@ -1,1 +1,2 @@
-web: gunicorn gettingstarted.wsgi flaskr.py
+web: gunicorn app:app
+init: python flaskr.py
